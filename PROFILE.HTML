@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Info Card</title>
+</head>
+<body>
+  <h1>My Personal Info</h1>
+  <p id="info"></p>
+
+  <script>
+    // Step 1: Create variables
+    let name = "Alisha";
+    let age = 22;
+    let city = "Mumbai";
+    let isStudent = true;
+
+    // Step 2: Create a message using variables
+    let message = "My name is " + name + 
+                  ", I am " + age + " years old, " +
+                  "I live in " + city + 
+                  ", Student: " + isStudent;
+
+    // Step 3: Show message on webpage
+    document.getElementById("info").innerText = message;
+  </script>
+</body>
+</html>
+
